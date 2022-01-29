@@ -3,12 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComponentComponent } from './component/component.component';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { ComponentsComponent } from './landing/components/components.component';
+import { HomeComponent } from './landing/pages/home/home.component';
+import { BlogsComponent } from './landing/pages/blogs/blogs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ComponentComponent
+    SidebarComponent,
+    ComponentsComponent,
+    HomeComponent,
+    BlogsComponent,
+    
   ],
   imports: [
     BrowserModule,
