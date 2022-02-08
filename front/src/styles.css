@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+.outer {
+    width: auto;
+    height: auto;
+    overflow: scroll;
+    padding-left: 20%;
+}
+
+.box {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: -webkit-fill-available;
+    width: 20%;
+    background: black;
+  }
+  
+  
+.logo {
+    width: 40%;
+}
+
+
+
+
+
+.home {
+    height: 100vh;
+    background-color: violet;
+}
+.nosotras {
+    height: 100vh;
+    background-color: green;
+}
+
+.productos {
+    height: 100vh;
+    background-color: blue;
+}
+
+.blog {
+    height: 100vh;
+    background-color: red;
+}
+
+.footer {
+    height: 100vh;
+    background-color: yellowgreen;
+}
