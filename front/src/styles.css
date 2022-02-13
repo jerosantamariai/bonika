@@ -19,9 +19,10 @@
     width: 40%;
 }
 
-
-
-
+.nav-item {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
 
 .home {
     min-height: 100vh;
@@ -76,4 +77,10 @@
     background-color: rgb(36,36,36);
     color: white;
     text-decoration: none;
+}
+
+@media (max-height: 768px) {
+    .outer {
+        padding-left: 0;
+    }
 }
