@@ -140,12 +140,39 @@
 }
 
 .compra {
-    height: 85vh;
+    min-height: 85vh;
+}
+
+.compra .card {
+    width: 70%;
+}
+
+.compra .card .foto {
+    /* margin: auto !important; */
+    padding: 2rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.compra .card .card-text {
+    text-align: justify !important;
+    margin: 1rem 0;
 }
 
 @media (max-height: 768px) {
     .outer {
         padding-left: 0;
+    }
+
+    .carousel-img {
+        display: inline-block;
+        position: relative;
+        width: 100vw;     
+        height: 90vh;
+        overflow: hidden;
+        object-fit: cover;
     }
 }
 
