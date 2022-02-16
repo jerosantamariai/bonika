@@ -20,6 +20,7 @@
 .logo {
     width: 40%;
 }
+
 .navbar-desktop {
     list-style: none;
     display: flex;
@@ -38,6 +39,10 @@
 
 .bg-dark {
     background-color: black !important;
+}
+
+#navbarToggleExternalContent {
+    z-index: 999999;
 }
 
 /* .social {
@@ -78,7 +83,6 @@
 
 .home {
     min-height: 100vh;
-    /* background-color: violet; */
 }
 
 .carousel-img {
@@ -88,6 +92,10 @@
     height: 100vh;
     overflow: hidden;
     object-fit: cover;
+}
+
+.comocomprar {
+    background-color: rgb(216, 201, 70);
 }
 
 .nosotras {
@@ -131,8 +139,13 @@
     text-decoration: none;
 }
 
+.compra {
+    height: 85vh;
+}
+
 @media (max-height: 768px) {
     .outer {
         padding-left: 0;
     }
 }
+
