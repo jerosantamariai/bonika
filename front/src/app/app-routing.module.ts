@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { LandingComponent } from './page/landing/landing.component';
 import { CompraComponent } from "./page/compra/compra.component";
+import { ProductosComponent } from './page/productos/productos.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,10 @@ const routes: Routes = [
 {
     path: 'compra',
     component: CompraComponent
+},
+{
+  path: 'productos',
+  component: ProductosComponent
 },
 {
     path: '**',
