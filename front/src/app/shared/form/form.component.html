@@ -1,0 +1,18 @@
+<form class="col-6 offset-3 py-3 text-center" method='post' action='sendmail.php'>
+    <div class="my-2">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" aria-describedby="emailHelp" name="mail" required>
+    </div>
+    <div class="my-2">
+        <label class="form-label">Nombre y Apellido</label>
+        <input type="text" class="form-control" name="name" required>
+    </div>
+    <div class="my-2">
+        <label class="form-label">Teléfono</label>
+        <input type="text" class="form-control" name="telefono" required>
+    </div>
+
+    <textarea name="message" class="form-control my-5" rows="10" placeholder="Deja aquí tu comentario..."></textarea>
+
+    <button type="submit" class="btn btn-success">Enviar</button>
+</form>
