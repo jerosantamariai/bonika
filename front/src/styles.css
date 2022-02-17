@@ -162,6 +162,14 @@
 }
 
 @media (max-height: 768px) {
+    .margen-carousel, 
+    .margin-nosotros, 
+    .margin-comoComprar,
+    .margin-productos,
+    .margen-blog,
+    .margin-contacto {
+        margin-left: 20%;
+    }
     .outer {
         padding-left: 0;
     }
@@ -174,5 +182,12 @@
         overflow: hidden;
         object-fit: cover;
     }
+}
+
+.prueba {
+    background-color: blue;
+    color: yellow;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 
