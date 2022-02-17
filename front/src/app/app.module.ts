@@ -9,6 +9,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { CompraComponent } from './page/compra/compra.component';
 import { LandingComponent } from './page/landing/landing.component';
 import { ProductosComponent } from './page/productos/productos.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProductosComponent } from './page/productos/productos.component';
     SidebarComponent,
     CompraComponent,
     LandingComponent,
-    ProductosComponent
+    ProductosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

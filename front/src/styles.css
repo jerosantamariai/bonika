@@ -133,8 +133,12 @@
 }
 
 .footer {
-    height: 15vh;
-    background-color: rgb(36,36,36);
+    /* height: 15vh; */
+    background-color: rgb(0, 0, 0);
+}
+
+.footer a,
+.footer p {
     color: white;
     text-decoration: none;
 }
@@ -170,6 +174,7 @@
     .margin-contacto {
         margin-left: 20%;
     }
+    
     .outer {
         padding-left: 0;
     }
@@ -183,11 +188,3 @@
         object-fit: cover;
     }
 }
-
-.prueba {
-    background-color: blue;
-    color: yellow;
-    margin-left: 20px;
-    padding-left: 20px;
-}
-
