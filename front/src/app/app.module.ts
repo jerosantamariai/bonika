@@ -10,6 +10,7 @@ import { CompraComponent } from './page/compra/compra.component';
 import { LandingComponent } from './page/landing/landing.component';
 import { ProductosComponent } from './page/productos/productos.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { FormComponent } from './shared/form/form.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     CompraComponent,
     LandingComponent,
     ProductosComponent,
+    FormComponent,
     FooterComponent
   ],
   imports: [
