@@ -16,7 +16,26 @@
     width: 20%;
     background: black;
   }
-  
+
+.routing {
+    text-decoration: solid;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+ 
+.routing:hover {
+    text-decoration: solid;
+    cursor: pointer;
+    text-decoration: solid;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: rgb(216, 201, 70);
+    background-color: black;
+    transition: background-color 0.75s, color 0.75s; 
+}
+
 .logo {
     width: 40%;
 }
