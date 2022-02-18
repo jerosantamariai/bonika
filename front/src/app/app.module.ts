@@ -11,6 +11,7 @@ import { LandingComponent } from './page/landing/landing.component';
 import { ProductosComponent } from './page/productos/productos.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FormComponent } from './shared/form/form.component';
+import { BlogsComponent } from './page/blogs/blogs.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormComponent } from './shared/form/form.component';
     LandingComponent,
     ProductosComponent,
     FormComponent,
-    FooterComponent
+    FooterComponent,
+    BlogsComponent
   ],
   imports: [
     BrowserModule,
